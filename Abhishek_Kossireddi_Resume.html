@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abhishek Kossireddi - Resume</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #526173;
+      --accent: #1f5f8b;
+      --accent-light: #eaf3f8;
+      --rule: #d8e2eb;
+      --page: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #eef2f5;
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.4pt;
+      line-height: 1.38;
+    }
+
+    .page {
+      width: 8.5in;
+      margin: 0 auto;
+      background: var(--page);
+      padding: 0.46in 0.52in;
+      box-shadow: 0 10px 28px rgba(23, 32, 51, 0.12);
+    }
+
+    header {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 14px;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 25pt;
+      letter-spacing: 0.2px;
+      line-height: 1.05;
+    }
+
+    .headline {
+      margin-top: 6px;
+      color: var(--accent);
+      font-size: 12pt;
+      font-weight: 700;
+    }
+
+    .contact {
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 9.6pt;
+    }
+
+    section {
+      margin-top: 15px;
+    }
+
+    h2 {
+      margin: 0 0 8px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid var(--rule);
+      color: var(--accent);
+      font-size: 12.2pt;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0 0 8px;
+    }
+
+    .summary {
+      font-size: 10.6pt;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px 12px;
+      margin-top: 6px;
+    }
+
+    .skill {
+      break-inside: avoid;
+      padding: 6px 8px;
+      border-left: 3px solid var(--accent);
+      background: var(--accent-light);
+    }
+
+    .skill strong {
+      color: var(--ink);
+    }
+
+    .role {
+      margin-top: 11px;
+      break-inside: avoid;
+    }
+
+    .role:first-of-type {
+      margin-top: 0;
+    }
+
+    .role-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: baseline;
+      margin-bottom: 1px;
+    }
+
+    h3 {
+      margin: 0;
+      font-size: 11.4pt;
+      color: var(--ink);
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 9.6pt;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .title {
+      margin-bottom: 4px;
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 16px;
+    }
+
+    li {
+      margin-bottom: 3px;
+    }
+
+    .education-grid {
+      display: grid;
+      gap: 6px;
+    }
+
+    .degree {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .school {
+      color: var(--muted);
+    }
+
+    @page {
+      size: letter;
+      margin: 0.35in;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .page {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+      }
+
+      section {
+        break-inside: auto;
+      }
+
+      .role {
+        break-inside: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>Abhishek Kossireddi</h1>
+      <div class="headline">Senior Full Stack Java Developer | Cloud &amp; Platform Engineer</div>
+      <div class="contact">kvsabhishek.08@gmail.com | 404-884-9424</div>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p class="summary">Senior Full Stack Java Developer with 11+ years of experience designing, building, and modernizing enterprise applications across finance, telecom, retail, logistics, and payments. Strong background in Java, Spring Boot, microservices, distributed systems, cloud-native architecture, and full-stack web development. Experienced in leading onshore/offshore teams, translating business needs into scalable technical designs, and improving reliability, security, performance, and developer productivity across complex production environments.</p>
+    </section>
+
+    <section>
+      <h2>Core Competencies</h2>
+      <div class="skills">
+        <div class="skill"><strong>Backend:</strong> Java, J2EE, Spring Boot, Spring MVC, Hibernate, REST, SOAP, WSDL, JMS, JDBC</div>
+        <div class="skill"><strong>Frontend:</strong> React, Next.js, AngularJS, JavaScript, TypeScript, HTML5, CSS3, Bootstrap, jQuery</div>
+        <div class="skill"><strong>Cloud:</strong> AWS, GCP, Kubernetes, GKE, EKS, Docker, Podman, Terraform, Cloud Run, Lambda</div>
+        <div class="skill"><strong>Data:</strong> Oracle, PostgreSQL, MySQL, MongoDB, DynamoDB, HBase, Hive, Kafka, Spark, Redis</div>
+        <div class="skill"><strong>DevOps:</strong> Maven, Ant, Jenkins, GitHub, SVN, CI/CD, Prometheus, Grafana, Splunk, Honeycomb</div>
+        <div class="skill"><strong>Security:</strong> OAuth 2.0, SAML, OIDC, IAM, HashiCorp Vault, CyberArk, SFTP, APIGEE</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <article class="role">
+        <div class="role-header">
+          <h3>Equifax - Employment Data Analysis</h3>
+          <div class="date">March 2026 - Present</div>
+        </div>
+        <div class="title">Senior Software Engineer</div>
+        <ul>
+          <li>Lead Agile planning and delivery for enterprise employment-data initiatives across Product, QA, Systems Engineering, and stakeholder groups.</li>
+          <li>Author HLD/LLD documentation, class diagrams, sequence diagrams, and business requirements for extensible external-client integrations.</li>
+          <li>Modernized security by implementing encryption, secure SFTP workflows, and migration from CyberArk to HashiCorp Vault.</li>
+          <li>Built SOAP web services and WSDL contracts supporting multi-client requests, dynamic data-source keying, and resilient error handling.</li>
+          <li>Developed Oracle stored procedures and Hibernate/Spring persistence workflows for business-critical order capture and DB-level logging.</li>
+          <li>Automated batch processing and data transfers with GCP Airflow/Dataflow plugins, UNIX shell scripting, Maven, Ant, and CAPE CI/CD.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <div class="role-header">
+          <h3>Verizon - Fixed Wireless Access</h3>
+          <div class="date">Jan 2025 - Mar 2026</div>
+        </div>
+        <div class="title">Full Stack Engineer / Infrastructure Architect</div>
+        <ul>
+          <li>Led a global team of 9 across onshore/offshore groups and served as primary technical point of contact for stakeholders.</li>
+          <li>Owned end-to-end SDLC for a technician-facing 5G installation and activation suite from requirements through production support.</li>
+          <li>Architected full-stack applications using Java, Node.js, React/Angular, and microservices for real-time 5G router provisioning.</li>
+          <li>Implemented federated Prometheus monitoring, custom Linux exporters, and service discovery, reducing monitoring onboarding by 80%.</li>
+          <li>Built Redis-backed real-time leaderboards, profile caching, and high-throughput rate limiting with atomic counters and sliding-log patterns.</li>
+          <li>Designed GCP architectures incorporating HA/DR, hybrid connectivity, BigQuery, Dataflow, Pub/Sub, IAP, Cloud Armor, and Confidential Computing.</li>
+          <li>Improved observability with Honeycomb high-cardinality tracing, Splunk centralized logging, and CloudWatch composite alarms.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <div class="role-header">
+          <h3>Verizon - Network Performance Intelligence | Alpharetta, GA</h3>
+          <div class="date">Aug 2023 - Dec 2024</div>
+        </div>
+        <div class="title">Senior Full Stack Engineer</div>
+        <ul>
+          <li>Automated GCP infrastructure using Terraform, GKE, Cloud Storage, Cloud SQL, Cloud Functions, VPCs, firewalls, and autoscaling.</li>
+          <li>Migrated on-premise workloads to GCP, improving availability to 99.9% and reducing infrastructure costs by 25-40%.</li>
+          <li>Built Spring Boot microservices for high-volume batch processing, traffic monitoring, and field-network intelligence workflows.</li>
+          <li>Developed Spark batch/streaming jobs and Kafka, Pulsar, and Storm pipelines for high-throughput network performance data.</li>
+          <li>Built Python automation and services with FastAPI, Flask, Boto3, PySpark, Avro, and Kafka Connect for provisioning, CDC, and data operations.</li>
+          <li>Implemented Grafana, Loki, Tempo, SLIs, and SLOs to connect metrics, logs, traces, and business KPIs.</li>
+          <li>Migrated SQL workloads to Amazon Aurora and built AWS Glue ETL pipelines into S3 data lakes with Glue Catalog and Crawlers.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <div class="role-header">
+          <h3>TSYS &amp; Global Payments | Alpharetta, GA</h3>
+          <div class="date">Feb 2022 - July 2023</div>
+        </div>
+        <div class="title">Sr. Java Developer / Web Developer</div>
+        <ul>
+          <li>Developed CI/CD pipelines for AWS-hosted applications using Terraform, Bash, GitHub, and automated environment provisioning.</li>
+          <li>Designed microservice security using Spring Boot, Spring Security SAML, vulnerability management, and high-availability AWS operations.</li>
+          <li>Led a React, TypeScript, and Tailwind CSS design system adopted by 12+ teams, reducing UI delivery effort by 50%.</li>
+          <li>Engineered state management with Zustand and React Query, eliminating redundant API calls and resolving real-time dashboard race conditions.</li>
+          <li>Implemented micro-frontends with Module Federation for independent deployment of product modules in a unified React ecosystem.</li>
+          <li>Built SSO capabilities using SAML 2.0, OIDC, MFA, adaptive authentication, and centralized identity platforms.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <div class="role-header">
+          <h3>FedEx | Pittsburgh, PA</h3>
+          <div class="date">Oct 2020 - Feb 2022</div>
+        </div>
+        <div class="title">Sr. Java Developer</div>
+        <ul>
+          <li>Led offshore delivery for two enterprise applications, coordinating design, development, code review, testing, and releases.</li>
+          <li>Developed Spring Boot REST APIs and refactored microservices to improve maintainability and reduce code complexity.</li>
+          <li>Implemented Docker and Nginx deployment patterns to support continuous delivery in high-scalability environments.</li>
+          <li>Designed MongoDB schemas, complex JSON models, optimized SQL procedures, and improved database-query performance.</li>
+          <li>Built Kafka producers/consumers with retry and error-handling patterns and Redis caching for sub-100ms regional responses.</li>
+          <li>Supported OAuth 2.0 integrations with PKCE, least-privilege scopes, secure token refresh, and third-party SaaS synchronization.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <div class="role-header">
+          <h3>Tractor Supply Company | Nashville, TN</h3>
+          <div class="date">Feb 2019 - Aug 2020</div>
+        </div>
+        <div class="title">Sr. Java Developer / Web Developer</div>
+        <ul>
+          <li>Designed n-tier applications using Core Java, Spring Boot, Spring ORM, UML, and J2EE design patterns.</li>
+          <li>Built REST/SOAP integrations with API versioning, JSON structures, JMS workflows, and C++ service clients.</li>
+          <li>Managed AWS-hosted web applications, S3 structures, CloudTrail logs, Apache servers, Jenkins builds, and release support.</li>
+          <li>Developed AngularJS applications with two-way binding, DOJO widgets, AJAX support, and standardized UI structures.</li>
+          <li>Architected Next.js and React solutions using App Router, SSR, ISR, React Server Components, Apollo Client, and custom hooks.</li>
+        </ul>
+      </article>
+
+      <article class="role">
+        <div class="role-header">
+          <h3>Walmart | Bentonville, AR</h3>
+          <div class="date">Mar 2015 - Sep 2017</div>
+        </div>
+        <div class="title">Software Developer III</div>
+        <ul>
+          <li>Developed JEE web services using SOAP, WSDL, UDDI, Spring MVC, Hibernate DAO classes, and Spring IOC integration.</li>
+          <li>Built TIBCO BusinessWorks interfaces in fault-tolerant and load-balanced modes and configured TIBCO Administrator, Hawk, and adapters.</li>
+          <li>Created XSD schemas and transformation processes for XML and proprietary data exchange across distributed workflows.</li>
+          <li>Developed AngularJS, Backbone, RequireJS, JSP custom tags, JavaScript, Ruby, and Python utilities for web applications and automation.</li>
+          <li>Supported MongoDB administration, data modeling, JavaScript DML operations, imports, exports, ad-hoc backups, and health monitoring.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="education-grid">
+        <div>
+          <div class="degree"><strong>Master of Science in Computer Science</strong><span>2018 - 2019</span></div>
+          <div class="school">Southern University and A&amp;M College, USA | GPA: 3.8/4.0</div>
+        </div>
+        <div>
+          <div class="degree"><strong>Bachelor of Technology</strong><span>2010 - 2014</span></div>
+          <div class="school">Manav Bharti University, India | GPA: 3.6/4.0</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
